@@ -1,0 +1,36 @@
+{
+    "bracketPairColorizer.depreciation-notice": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vetur.validation.script": false,
+    "explorer.confirmDelete": false,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Solarized Dark",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "code-runner.clearPreviousOutput": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "files.autoGuessEncoding": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\php\\php.exe",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        "go": "go run",
+        "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+        // "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt",
+        "java": "cd $dir && javac -encoding utf-8 $fileName && java -Dfile.encoding=UTF-8 $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.ambiguousCharacters": false
+}
